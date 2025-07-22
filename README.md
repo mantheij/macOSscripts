@@ -8,7 +8,7 @@ Similarly, to uninstall, run the uninstall.sh using `./uninstall.sh`in this dire
 
 ## Use Cases
 
-- Automatically move all images from `Download` folder to `Pictures` folder
+- Automatically move all images from `Downloads` folder to `Pictures` folder
 
 - Delete screenshots older than 30 days, which have not been moved from the `Picutres/Screenshots` folder
 

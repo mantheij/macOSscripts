@@ -3,15 +3,15 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.user.cleanup</string>
+    <string>com.user.cleanupscreenshots</string>
 
     <key>ProgramArguments</key>
     <array>
-      <string>/voller/pfad/zu/cleanup.sh</string>
-    </array>
+      <string>__SCRIPT_PATH__/deleteOldScreenshots.sh</string>
+      </array>
 
     <key>StartInterval</key>
-    <integer>86400</integer> <!-- alle 24 Stunden -->
+    <integer>86400</integer> <!-- every 24 hours -->
 
     <key>RunAtLoad</key>
     <true/>

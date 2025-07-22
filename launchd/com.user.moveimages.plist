@@ -7,13 +7,15 @@
 
     <key>ProgramArguments</key>
     <array>
-      <string>/voller/pfad/zu/watcher.sh</string>
+      <string>__SCRIPT_PATH__/moveImages.sh</string>
+    </array>
+
+    <key>WatchPaths</key>
+    <array>
+      <string>__HOME__/Downloads</string>
     </array>
 
     <key>RunAtLoad</key>
-    <true/>
-
-    <key>KeepAlive</key>
     <true/>
 
     <key>StandardOutPath</key>
