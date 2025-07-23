@@ -4,11 +4,6 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PLIST_DIR="./launchd"
 TARGET_DIR="$HOME/Library/LaunchAgents"
 
-if ! tccutil check Accessibility; then
-  echo "Bitte erteile Terminal in Systemeinstellungen > Datenschutz > Bedienungshilfen die erforderlichen Rechte."
-  echo "Öffne Systemeinstellungen und aktiviere die Berechtigungen, dann starte die Installation erneut."
-  exit 1
-fi
 
 mkdir -p "$TARGET_DIR"
 
